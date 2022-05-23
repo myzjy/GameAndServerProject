@@ -30,3 +30,5 @@
 *.exe
 *.out
 *.app
+#The compile folder is not committed
+./Server/src/ServerSrc/build/*
