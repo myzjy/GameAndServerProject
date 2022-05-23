@@ -20,7 +20,7 @@
             "port": 8080,
             //https: If true, use https for security,false by default
             "https": false
-        },/*
+        }/*
         {
             "address": "0.0.0.0",
             "port": 443,
@@ -232,7 +232,7 @@
         //0 means cache forever, the negative value means no cache
         "static_files_cache_time": 5,
         //simple_controllers_map: Used to configure mapping from path to simple controller
-        "simple_controllers_map": [
+       /* "simple_controllers_map": [
             {
                 "path": "/path/name",
                 "controller": "controllerClassName",
@@ -243,8 +243,9 @@
                 "filters": [
                     "FilterClassName"
                 ]
+                
             }
-        ],
+        ],*/
         //idle_connection_timeout: Defaults to 60 seconds, the lifetime 
         //of the connection without read or write
         "idle_connection_timeout": 60,
