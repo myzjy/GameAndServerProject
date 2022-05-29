@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="562b2504-31c1-4133-8e7b-65dea5259ee2" name="阿里云主机1">
+        <fileTransfer rootFolder="/usr/games/GameAndServerProject" accessType="SFTP" host="121.41.54.199" port="22" sshConfigId="5b265595-63dd-4ee4-bcd9-5b7b45ef0b43" sshConfig="阿里云远程主机1">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
